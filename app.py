@@ -11,7 +11,7 @@ st.set_page_config(page_title="Portfolio Assistent Safe-Mode", page_icon="🎓",
 API_KEY = "AIzaSyC7AYzC8Fmi971V_C8yZ6hVuUwCPv9AJZI" 
 genai.configure(api_key=API_KEY)
 # We gebruiken 'gemini-pro', dit is het meest stabiele tekstmodel ter wereld
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 # --- HOOFDSCHERM ---
 st.title("🎓 :blue[Mijn Praktijk Portfolio] :orange[Assistent]")
