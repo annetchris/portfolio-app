@@ -15,7 +15,7 @@ st.set_page_config(
 # Zorg dat je hier jouw eigen API Key tussen de aanhalingstekens hebt staan!
 API_KEY = "AIzaSyC7AYzC8Fmi971V_C8yZ6hVuUwCPv9AJZI" 
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 # --- SIDEBAR (Zijbalk) ---
 with st.sidebar:
