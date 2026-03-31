@@ -13,7 +13,7 @@ st.set_page_config(
 
 # --- AI INSTELLEN ---
 # Zorg dat je hier jouw eigen API Key tussen de aanhalingstekens hebt staan!
-API_KEY = "AIzaSyB01MejSLsIDPrB24K7QqTExmqi9wp7SBs" 
+API_KEY = "AIzaSyC7AYzC8Fmi971V_C8yZ6hVuUwCPv9AJZI" 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
